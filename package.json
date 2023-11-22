@@ -4,7 +4,7 @@
   "description": "Boilerplate for developing full stack apps with Express and Svelte.js",
   "main": "src/app.js",
   "scripts": {
-    "client-install": "cd client && npm install",
+    "client-install": "cd client && yarn",
     "start": "node src/index.js",
     "serve:server": "nodemon src/index.js",
     "serve:client": "cd client && npm run dev",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/dj0nny/svelte-express-boilerplate#readme",
   "dependencies": {
+    "@consumet/extensions": "^1.5.4",
     "body-parser": "^1.20.1",
     "concurrently": "^7.5.0",
     "cors": "^2.8.5",
