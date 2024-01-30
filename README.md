@@ -1,34 +1,44 @@
-### Prerequisites  
+# Full Stack Starter - Svelte and Express
 
-For this project you need [__Node__](https://nodejs.org/en/) installed on your machine with [__Npm__](https://www.npmjs.com/) or [__Yarn__](https://yarnpkg.com).
+*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
-### Quick start
+---
+
+## Svelte app
+
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-# Install dependencies for server
-npm install
-
-# Install dependencies for client
-npm run client-install
-
-# Run the client & server with concurrently
-npm run dev
-
-# Run the Express server only
-npm run serve:server
-
-# Run the Svelte client only
-npm run serve:client
-
-# Server runs on http://localhost:5678 and client on http://localhost:5000
+npx degit sveltejs/template svelte-app
+cd svelte-app
 ```
 
-## Built with ❤️ using:
+*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-* [Node.js](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [Express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
-* [Svelte.js](https://svelte.dev/) - Javascript framework
 
-## Contributing
+Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
-Pull Requests for adding features ⇄ and ★ are welcome 😎
+## Express app
+
+This app uses Node and Express as the backend. To start the backend run:
+
+```bash
+yarn start
+```
+
+## Full Stack Startup
+
+To develop the frontend and the backend together run the following:
+
+```bash
+yarn dev
+```
+
+To create an optimized and minified production bundle, run this:
+```bash
+yarn build
+```
+
+
